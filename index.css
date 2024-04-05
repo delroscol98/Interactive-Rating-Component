@@ -64,9 +64,43 @@ main {
   margin-left: 2.4rem;
 }
 
+.rating p {
+  width: 74.4vw;
+  color: var(--neutral-light-grey);
+  font-size: 3.733vw;
+  line-height: 1.571;
+  margin: 1.7rem auto 0;
+}
+
+.rating ul {
+  display: flex;
+  justify-content: space-between;
+  width: 74.4vw;
+  margin: 2.4rem auto 0;
+}
+
+.rating ul li {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-dark-blue);
+}
+
+.rating ul li button {
+  border: none;
+  background: none;
+  color: var(--neutral-light-grey);
+  font-size: 1.4rem;
+}
+
 @media screen and (min-width: 426px) {
   main {
     width: 40.234vw;
+    height: 41.6rem;
   }
 
   .rating article {
@@ -85,5 +119,25 @@ main {
     margin-top: 3rem;
     margin-left: 3.2rem;
     width: fit-content;
+  }
+
+  .rating p {
+    width: 33.203vw;
+    font-size: 1.465vw;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+  }
+
+  .rating ul {
+    width: 33.203vw;
+  }
+
+  .rating ul li {
+    width: 4.98vw;
+    height: 4.98vw;
+  }
+
+  .rating ul li button {
+    font-size: 1.6rem;
   }
 }
