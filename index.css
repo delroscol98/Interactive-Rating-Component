@@ -97,6 +97,18 @@ main {
   font-size: 1.4rem;
 }
 
+.submit {
+  border: none;
+  background: var(--primary);
+  width: 74.4vw;
+  height: 4.5rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2.25rem;
+  margin-top: 2.4rem;
+}
+
 @media screen and (min-width: 426px) {
   main {
     width: 40.234vw;
@@ -125,11 +137,12 @@ main {
     width: 33.203vw;
     font-size: 1.465vw;
     line-height: 1.6;
-    margin-top: 1.5rem;
+    margin: 1.5rem 3.2rem 0 3.2rem;
   }
 
   .rating ul {
-    width: 33.203vw;
+    width: auto;
+    margin: 2.4rem 3.2rem 0 3.2rem;
   }
 
   .rating ul li {
@@ -139,5 +152,10 @@ main {
 
   .rating ul li button {
     font-size: 1.6rem;
+  }
+
+  .submit {
+    width: 33.301vw;
+    margin-top: 3.2rem;
   }
 }
