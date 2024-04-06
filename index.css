@@ -190,4 +190,9 @@ main {
     margin-top: 2.222vw;
     font-size: 1.042vw;
   }
+
+  .thankyou img {
+    width: 11.25vw;
+    margin-top: 3.125vw;
+  }
 }
