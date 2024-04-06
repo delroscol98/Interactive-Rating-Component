@@ -97,6 +97,7 @@ main {
   background: var(--neutral-dark-blue);
   color: var(--neutral-light-grey);
   font-size: 1.4rem;
+  transition: 0.3s;
 }
 
 .rating ul li button:focus {
@@ -122,14 +123,12 @@ main {
   margin-top: 2.4rem;
   color: var(--neutral-white);
   letter-spacing: 2px;
+  transition: 0.3s;
 }
 
-.submit:hover {
-  cursor: pointer;
-}
-
-.submit:active,
+.submit:hover,
 .submit:focus {
+  cursor: pointer;
   background-color: var(--neutral-white);
   color: var(--primary);
 }
