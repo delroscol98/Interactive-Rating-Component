@@ -96,7 +96,8 @@ main {
   font-size: 1.4rem;
 }
 
-.rating ul li button:hover {
+.rating ul li button:hover,
+.rating ul li button:focus {
   background-color: var(--neutral-medium-grey);
   color: var(--neutral-white);
   cursor: pointer;
@@ -104,6 +105,7 @@ main {
 
 .rating ul li button:active {
   background-color: var(--primary);
+  color: var(--neutral-white);
 }
 
 .submit {
