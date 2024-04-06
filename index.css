@@ -99,14 +99,13 @@ main {
   font-size: 1.4rem;
 }
 
-.rating ul li button:hover {
+.rating ul li button:focus {
   background-color: var(--neutral-medium-grey);
   color: var(--neutral-white);
-  cursor: pointer;
 }
 
-.rating ul li button:active,
-.rating ul li button:focus {
+.rating ul li button:hover {
+  cursor: pointer;
   background-color: var(--primary);
   color: var(--neutral-white);
 }
