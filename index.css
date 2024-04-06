@@ -139,6 +139,22 @@ main {
   transform: translateX(-50%);
 }
 
+.feedback_container {
+  width: 44.8vw;
+  height: 8.533vw;
+  background-color: var(--neutral-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.25rem;
+  margin: 6.4vw auto 0;
+}
+
+.feedback_container p {
+  color: var(--primary);
+  font-size: 3.733vw;
+}
+
 @media screen and (min-width: 426px) {
   main {
     width: 28.611vw;
@@ -194,5 +210,15 @@ main {
   .thankyou img {
     width: 11.25vw;
     margin-top: 3.125vw;
+  }
+
+  .feedback_container {
+    width: 13.403vw;
+    height: 2.222vw;
+    margin-top: 2.222vw;
+  }
+
+  .feedback_container p {
+    font-size: 1.042vw;
   }
 }
