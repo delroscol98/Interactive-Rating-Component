@@ -107,19 +107,21 @@ main {
   transform: translateX(-50%);
   border-radius: 2.25rem;
   margin-top: 2.4rem;
+  color: var(--neutral-white);
+  letter-spacing: 2px;
 }
 
 @media screen and (min-width: 426px) {
   main {
-    width: 40.234vw;
-    height: 41.6rem;
+    width: 28.611vw;
+    height: 28.889vw;
   }
 
   .rating article {
-    width: 4.8rem;
-    height: 4.8rem;
-    margin-left: 3.2rem;
-    margin-top: 3.2rem;
+    width: 3.333vw;
+    height: 3.333vw;
+    margin-left: 2.222vw;
+    margin-top: 2.222vw;
   }
 
   .rating article img {
@@ -127,35 +129,37 @@ main {
   }
 
   .rating h1 {
-    font-size: 2.734vw;
-    margin-top: 3rem;
-    margin-left: 3.2rem;
+    font-size: 1.944vw;
+    margin-top: 2.083vw;
+    margin-left: 2.222vw;
     width: fit-content;
   }
 
   .rating p {
-    width: 33.203vw;
-    font-size: 1.465vw;
+    width: 23.611vw;
+    font-size: 1.042vw;
     line-height: 1.6;
-    margin: 1.5rem 3.2rem 0 3.2rem;
+    margin: 1.042vw 2.222vw 0 2.222vw;
   }
 
   .rating ul {
     width: auto;
-    margin: 2.4rem 3.2rem 0 3.2rem;
+    margin: 1.667vw 2.222vw 0 2.222vw;
   }
 
   .rating ul li {
-    width: 4.98vw;
-    height: 4.98vw;
+    width: 3.542vw;
+    height: 3.542vw;
   }
 
   .rating ul li button {
-    font-size: 1.6rem;
+    font-size: 1.111vw;
   }
 
   .submit {
-    width: 33.301vw;
-    margin-top: 3.2rem;
+    width: 23.681vw;
+    height: 3.125vw;
+    margin-top: 2.222vw;
+    font-size: 1.042vw;
   }
 }
