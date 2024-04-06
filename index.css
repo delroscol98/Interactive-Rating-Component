@@ -105,7 +105,8 @@ main {
   cursor: pointer;
 }
 
-.rating ul li button:active {
+.rating ul li button:active,
+.rating ul li button:focus {
   background-color: var(--primary);
   color: var(--neutral-white);
 }

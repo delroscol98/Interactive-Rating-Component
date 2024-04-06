@@ -1,5 +1,3 @@
-// 3. Toggle the state of the rating component and the thankyou component
-
 const ratingBtns = document.querySelectorAll("ul li button");
 const rating = document.querySelector("#rating");
 const ratingSec = document.querySelector(".rating");
@@ -17,6 +15,8 @@ const getRatingNum = (e) => {
 };
 
 const submitRating = () => {
+  // 3. Toggle the hidden state of the rating component and the thankyou component
+
   ratingSec.setAttribute("hidden", "hidden");
   thankyouSec.removeAttribute("hidden");
 };
