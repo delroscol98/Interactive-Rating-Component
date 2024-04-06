@@ -25,6 +25,11 @@ html {
   box-sizing: border-box;
 }
 
+.heading {
+  color: var(--neutral-white);
+  font-size: 6.4vw;
+}
+
 body {
   background: var(--neutral-very-dark-blue);
   min-height: 100vh;
@@ -58,8 +63,6 @@ main {
 }
 
 .rating h1 {
-  color: var(--neutral-white);
-  font-size: 6.4vw;
   margin-top: 1.6rem;
   margin-left: 2.4rem;
 }
@@ -155,6 +158,23 @@ main {
   font-size: 3.733vw;
 }
 
+.thankyou h2 {
+  text-align: center;
+  margin-top: 6.4vw;
+}
+
+.thankyou_text {
+  width: 74.4vw;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--neutral-light-grey);
+  font-size: 3.733vw;
+  line-height: 1.571;
+  margin-top: 2.667vw;
+}
+
 @media screen and (min-width: 426px) {
   main {
     width: 28.611vw;
@@ -220,5 +240,16 @@ main {
 
   .feedback_container p {
     font-size: 1.042vw;
+  }
+
+  .thankyou h2 {
+    font-size: 1.944vw;
+    margin-top: 2.222vw;
+  }
+
+  .thankyou_text {
+    width: 23.611vw;
+    font-size: 1.042vw;
+    margin-top: 1.042vw;
   }
 }
