@@ -111,6 +111,15 @@ main {
   letter-spacing: 2px;
 }
 
+.submit:hover {
+  cursor: pointer;
+}
+
+.submit:active {
+  background-color: var(--neutral-white);
+  color: var(--primary);
+}
+
 @media screen and (min-width: 426px) {
   main {
     width: 28.611vw;
