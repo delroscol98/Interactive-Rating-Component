@@ -80,21 +80,30 @@ main {
 }
 
 .rating ul li {
-  width: 4.2rem;
-  height: 4.2rem;
-  border-radius: 50%;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--neutral-dark-blue);
 }
 
 .rating ul li button {
+  width: 3.542vw;
+  height: 3.542vw;
+  border-radius: 50%;
   border: none;
-  background: none;
+  background: var(--neutral-dark-blue);
   color: var(--neutral-light-grey);
   font-size: 1.4rem;
+}
+
+.rating ul li button:hover {
+  background-color: var(--neutral-medium-grey);
+  color: var(--neutral-white);
+  cursor: pointer;
+}
+
+.rating ul li button:active {
+  background-color: var(--primary);
 }
 
 .submit {
@@ -115,7 +124,8 @@ main {
   cursor: pointer;
 }
 
-.submit:active {
+.submit:active,
+.submit:focus {
   background-color: var(--neutral-white);
   color: var(--primary);
 }
