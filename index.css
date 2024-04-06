@@ -32,7 +32,7 @@ body {
 
 main {
   width: 87.2vw;
-  height: 360px;
+  height: 96vw;
   border-radius: 1.5rem;
   background: radial-gradient(
     circle,
@@ -96,8 +96,7 @@ main {
   font-size: 1.4rem;
 }
 
-.rating ul li button:hover,
-.rating ul li button:focus {
+.rating ul li button:hover {
   background-color: var(--neutral-medium-grey);
   color: var(--neutral-white);
   cursor: pointer;
@@ -130,6 +129,14 @@ main {
 .submit:focus {
   background-color: var(--neutral-white);
   color: var(--primary);
+}
+
+.thankyou img {
+  width: 38.4vw;
+  margin-top: 9.067vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media screen and (min-width: 426px) {
